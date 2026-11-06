@@ -1,0 +1,11 @@
+emitter,platform,compiler,flags,flash_bytes,text_bytes,const_bytes,static_ram_bytes,stack_bound_bytes,table_bytes,counts_sha256,reached
+tag_only,host arm64 (Mach-O),Apple clang version 21.0.0 (clang-2100.4.1.1),"-Os -std=c11 -Wall -Werror -Wl,-dead_strip",7824,7712,112,0,1264,,,
+scheme,host arm64 (Mach-O),Apple clang version 21.0.0 (clang-2100.4.1.1),"-Os -std=c11 -Wall -Werror -Wl,-dead_strip",8190,8064,126,0,1648,,,
+ppm_o1,host arm64 (Mach-O),Apple clang version 21.0.0 (clang-2100.4.1.1),"-Os -std=c11 -Wall -Werror -Wl,-dead_strip",24844,8936,15908,0,1536,15654,fab61e79a5763c1dcc15d0227334148ef169d1b7c90f37e5ef4da8f633577d5e,True
+ppm_o2_16k,host arm64 (Mach-O),Apple clang version 21.0.0 (clang-2100.4.1.1),"-Os -std=c11 -Wall -Werror -Wl,-dead_strip",25786,9092,16694,0,1568,16384,5286aac01cc58656b496296b43ba8fa6c455a786eefe09434930e4a8eb44d342,True
+ppm_o2_32k,host arm64 (Mach-O),Apple clang version 21.0.0 (clang-2100.4.1.1),"-Os -std=c11 -Wall -Werror -Wl,-dead_strip",42168,9092,33076,0,1568,32766,0fd3300b949781a2505e9f91eb22a32162c2b2cb61ef0209106b2ac6c40a8b10,True
+ppm_o2_64k,host arm64 (Mach-O),Apple clang version 21.0.0 (clang-2100.4.1.1),"-Os -std=c11 -Wall -Werror -Wl,-dead_strip",74938,9092,65846,0,1568,65536,e46f68476930c5168f6b16e10f80fbb62aab60159d6d0be37020ee764a3a965c,True
+ppm_o2,host arm64 (Mach-O),Apple clang version 21.0.0 (clang-2100.4.1.1),"-Os -std=c11 -Wall -Werror -Wl,-dead_strip",96462,9092,87370,0,1568,87059,cc4c22ad235666506670f8f7867434f4822d1803779f7bb48147dbd844ed52b7,True
+ppm_o3,host arm64 (Mach-O),Apple clang version 21.0.0 (clang-2100.4.1.1),"-Os -std=c11 -Wall -Werror -Wl,-dead_strip",440626,9092,431534,0,1568,431166,48db1fdc45b6ba50927e15d7b222cd003a7ef467784be2d46678a53ad8b35df4,True
+smaz2,host arm64 (Mach-O),Apple clang version 21.0.0 (clang-2100.4.1.1),"-Os -std=c11 -Wall -Werror -Wl,-dead_strip",10360,8344,2016,2056,1392,,,
+unishox2,host arm64 (Mach-O),Apple clang version 21.0.0 (clang-2100.4.1.1),"-Os -std=c11 -Wall -Werror -Wl,-dead_strip",15697,15372,325,450,2720,,,

@@ -1,0 +1,12 @@
+# Núcleo (testes e modelo de brinquedo)
+numpy>=1.24
+pytest>=7.0
+# Referência zstd com dicionário
+zstandard>=0.22
+# Modelo de linguagem no receptor (download grande)
+torch>=2.1
+# o cache KV usa DynamicCache(ddp_cache_data=...) e cache.layers: ausentes em 4.40 e 4.50, presentes em 4.56 (conferido
+# lendo cache_utils.py); a suíte só foi executada com 5.20.2
+transformers>=4.56
+# Unishox2 e smaz2: não há pacote no PyPI (`unishox2-py` dá 404, conferido 2026-11-04); compilar do C oficial,
+# ver scripts/analysis/tiny_codecs/measure.py

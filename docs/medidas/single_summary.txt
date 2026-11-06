@@ -1,0 +1,137 @@
+n=1000 delivered=857 p=0.8570 Wilson95 [0.8339, 0.8773]
+mean decode seconds 11.86
+delivered_ngram: 723/1000 Wilson95 [0.6944, 0.7498]
+delivered_retry: 929/1000 Wilson95 [0.9114, 0.9433]
+receiver memory: max RSS 2413215744 B, max MPS driver 5587468288 B
+correction 7: cap_truncou_lista 1000, busca_esgotada 143, busca_esgotada_ngram 142
+retry extra receiver seconds per message (all messages) 25.17
+cost_raw: mean 192.8 boot95 [185.0; 201.0]
+cost_unishox2: mean 178.4 boot95 [172.6; 184.3]
+cost_raw_ngram: mean 245.3 boot95 [234.6; 256.3]
+cost_raw_retry: mean 166.7 boot95 [160.9; 172.9]
+bits per point: raw 344.0, smaz2 238.2, unishox2 239.3, ppm_o1 174.4, ppm_o2_16k 258.6, ppm_o2_32k 143.7, ppm_o2_64k 140.5, ppm_o2 140.5, ppm_o3 114.6
+diff cost_raw - raw: -151.1 boot95 [-159.1; -142.9] normal95 [-159.2; -143.0] -> menos, nao_equivalente
+diff cost_raw - smaz2: -45.3 boot95 [-53.1; -37.4] normal95 [-53.2; -37.4] -> menos, nao_equivalente
+diff cost_raw - unishox2: -46.4 boot95 [-54.2; -38.4] normal95 [-54.3; -38.6] -> menos, nao_equivalente
+diff cost_raw - ppm_o1: 18.4 boot95 [10.9; 26.3] normal95 [10.7; 26.2] -> mais, nao_equivalente
+diff cost_raw - ppm_o2_16k: -65.8 boot95 [-74.1; -57.3] normal95 [-74.2; -57.4] -> menos, nao_equivalente
+diff cost_raw - ppm_o2_32k: 49.2 boot95 [41.8; 56.9] normal95 [41.6; 56.7] -> mais, nao_equivalente
+diff cost_raw - ppm_o2_64k: 52.3 boot95 [44.8; 60.1] normal95 [44.6; 60.0] -> mais, nao_equivalente
+diff cost_raw - ppm_o2: 52.3 boot95 [44.8; 60.2] normal95 [44.7; 60.0] -> mais, nao_equivalente
+diff cost_raw - ppm_o3: 78.2 boot95 [70.7; 86.0] normal95 [70.5; 85.9] -> mais, nao_equivalente
+diff cost_raw - ppm_o1_term: 16.4 boot95 [8.9; 24.3] normal95 [8.7; 24.2] -> mais, nao_equivalente
+diff cost_raw - ppm_o2_16k_term: -67.8 boot95 [-76.1; -59.3] normal95 [-76.2; -59.4] -> menos, nao_equivalente
+diff cost_raw - ppm_o2_32k_term: 47.2 boot95 [39.8; 54.9] normal95 [39.6; 54.7] -> mais, nao_equivalente
+diff cost_raw - ppm_o2_64k_term: 50.3 boot95 [42.8; 58.1] normal95 [42.6; 58.0] -> mais, nao_equivalente
+diff cost_raw - ppm_o2_term: 50.3 boot95 [42.8; 58.2] normal95 [42.7; 58.0] -> mais, nao_equivalente
+diff cost_raw - ppm_o3_term: 76.2 boot95 [68.7; 84.0] normal95 [68.5; 83.9] -> mais, nao_equivalente
+diff cost_unishox2 - raw: -165.6 boot95 [-171.4; -159.4] normal95 [-171.6; -159.5] -> menos, nao_equivalente
+diff cost_unishox2 - smaz2: -59.8 boot95 [-65.4; -54.0] normal95 [-65.5; -54.0] -> menos, nao_equivalente
+diff cost_unishox2 - unishox2: -60.9 boot95 [-66.5; -55.1] normal95 [-66.5; -55.2] -> menos, nao_equivalente
+diff cost_unishox2 - ppm_o1: 4.0 boot95 [-1.4; 9.6] normal95 [-1.6; 9.5] -> indeterminado, nao_equivalente
+diff cost_unishox2 - ppm_o2_16k: -80.2 boot95 [-86.5; -73.7] normal95 [-86.6; -73.8] -> menos, nao_equivalente
+diff cost_unishox2 - ppm_o2_32k: 34.7 boot95 [29.4; 40.2] normal95 [29.3; 40.1] -> mais, nao_equivalente
+diff cost_unishox2 - ppm_o2_64k: 37.9 boot95 [32.5; 43.4] normal95 [32.4; 43.4] -> mais, nao_equivalente
+diff cost_unishox2 - ppm_o2: 37.9 boot95 [32.5; 43.5] normal95 [32.4; 43.4] -> mais, nao_equivalente
+diff cost_unishox2 - ppm_o3: 63.7 boot95 [58.3; 69.3] normal95 [58.2; 69.3] -> mais, nao_equivalente
+diff cost_unishox2 - ppm_o1_term: 2.0 boot95 [-3.4; 7.6] normal95 [-3.6; 7.5] -> indeterminado, equivalente
+diff cost_unishox2 - ppm_o2_16k_term: -82.2 boot95 [-88.5; -75.7] normal95 [-88.6; -75.8] -> menos, nao_equivalente
+diff cost_unishox2 - ppm_o2_32k_term: 32.7 boot95 [27.4; 38.2] normal95 [27.3; 38.1] -> mais, nao_equivalente
+diff cost_unishox2 - ppm_o2_64k_term: 35.9 boot95 [30.5; 41.4] normal95 [30.4; 41.4] -> mais, nao_equivalente
+diff cost_unishox2 - ppm_o2_term: 35.9 boot95 [30.5; 41.5] normal95 [30.4; 41.4] -> mais, nao_equivalente
+diff cost_unishox2 - ppm_o3_term: 61.7 boot95 [56.3; 67.3] normal95 [56.2; 67.3] -> mais, nao_equivalente
+diff cost_raw_ngram - raw: -98.7 boot95 [-108.8; -88.5] normal95 [-108.9; -88.5] -> menos, nao_equivalente
+diff cost_raw_ngram - smaz2: 7.1 boot95 [-3.0; 17.3] normal95 [-3.0; 17.3] -> indeterminado, nao_equivalente
+diff cost_raw_ngram - unishox2: 6.0 boot95 [-4.2; 16.4] normal95 [-4.2; 16.3] -> indeterminado, nao_equivalente
+diff cost_raw_ngram - ppm_o1: 70.9 boot95 [60.8; 81.2] normal95 [60.7; 81.0] -> mais, nao_equivalente
+diff cost_raw_ngram - ppm_o2_16k: -13.3 boot95 [-23.2; -3.3] normal95 [-23.4; -3.3] -> menos, nao_equivalente
+diff cost_raw_ngram - ppm_o2_32k: 101.6 boot95 [91.9; 111.5] normal95 [91.8; 111.4] -> mais, nao_equivalente
+diff cost_raw_ngram - ppm_o2_64k: 104.7 boot95 [94.9; 114.8] normal95 [94.8; 114.7] -> mais, nao_equivalente
+diff cost_raw_ngram - ppm_o2: 104.8 boot95 [95.0; 114.9] normal95 [94.8; 114.8] -> mais, nao_equivalente
+diff cost_raw_ngram - ppm_o3: 130.6 boot95 [120.8; 140.7] normal95 [120.7; 140.6] -> mais, nao_equivalente
+diff cost_raw_ngram - ppm_o1_term: 68.9 boot95 [58.8; 79.2] normal95 [58.7; 79.0] -> mais, nao_equivalente
+diff cost_raw_ngram - ppm_o2_16k_term: -15.3 boot95 [-25.2; -5.3] normal95 [-25.4; -5.3] -> menos, nao_equivalente
+diff cost_raw_ngram - ppm_o2_32k_term: 99.6 boot95 [89.9; 109.5] normal95 [89.8; 109.4] -> mais, nao_equivalente
+diff cost_raw_ngram - ppm_o2_64k_term: 102.7 boot95 [92.9; 112.8] normal95 [92.8; 112.7] -> mais, nao_equivalente
+diff cost_raw_ngram - ppm_o2_term: 102.8 boot95 [93.0; 112.9] normal95 [92.8; 112.8] -> mais, nao_equivalente
+diff cost_raw_ngram - ppm_o3_term: 128.6 boot95 [118.8; 138.7] normal95 [118.7; 138.6] -> mais, nao_equivalente
+diff cost_raw_retry - raw: -177.2 boot95 [-183.3; -171.1] normal95 [-183.4; -171.1] -> menos, nao_equivalente
+diff cost_raw_retry - smaz2: -71.4 boot95 [-77.3; -65.4] normal95 [-77.4; -65.5] -> menos, nao_equivalente
+diff cost_raw_retry - unishox2: -72.5 boot95 [-78.2; -66.5] normal95 [-78.4; -66.7] -> menos, nao_equivalente
+diff cost_raw_retry - ppm_o1: -7.7 boot95 [-13.2; -1.8] normal95 [-13.4; -1.9] -> menos, nao_equivalente
+diff cost_raw_retry - ppm_o2_16k: -91.9 boot95 [-98.3; -85.2] normal95 [-98.5; -85.3] -> menos, nao_equivalente
+diff cost_raw_retry - ppm_o2_32k: 23.1 boot95 [17.5; 28.8] normal95 [17.4; 28.7] -> mais, nao_equivalente
+diff cost_raw_retry - ppm_o2_64k: 26.2 boot95 [20.6; 32.0] normal95 [20.5; 31.9] -> mais, nao_equivalente
+diff cost_raw_retry - ppm_o2: 26.3 boot95 [20.7; 32.1] normal95 [20.5; 32.0] -> mais, nao_equivalente
+diff cost_raw_retry - ppm_o3: 52.1 boot95 [46.5; 57.9] normal95 [46.4; 57.8] -> mais, nao_equivalente
+diff cost_raw_retry - ppm_o1_term: -9.7 boot95 [-15.2; -3.8] normal95 [-15.4; -3.9] -> menos, nao_equivalente
+diff cost_raw_retry - ppm_o2_16k_term: -93.9 boot95 [-100.3; -87.2] normal95 [-100.5; -87.3] -> menos, nao_equivalente
+diff cost_raw_retry - ppm_o2_32k_term: 21.1 boot95 [15.5; 26.8] normal95 [15.4; 26.7] -> mais, nao_equivalente
+diff cost_raw_retry - ppm_o2_64k_term: 24.2 boot95 [18.6; 30.0] normal95 [18.5; 29.9] -> mais, nao_equivalente
+diff cost_raw_retry - ppm_o2_term: 24.3 boot95 [18.7; 30.1] normal95 [18.5; 30.0] -> mais, nao_equivalente
+diff cost_raw_retry - ppm_o3_term: 50.1 boot95 [44.5; 55.9] normal95 [44.4; 55.8] -> mais, nao_equivalente
+air meshtastic scheme_raw   0.6929
+air meshtastic scheme_unishox2 0.6793
+air meshtastic scheme_raw_ngram 0.8465
+air meshtastic scheme_raw_retry 0.6124
+air meshtastic raw          0.7191
+air meshtastic smaz2        0.6200
+air meshtastic unishox2     0.6216
+air meshtastic ppm_o1       0.5657
+air meshtastic ppm_o2_16k   0.6430
+air meshtastic ppm_o2_32k   0.5372
+air meshtastic ppm_o2_64k   0.5339
+air meshtastic ppm_o2       0.5338
+air meshtastic ppm_o3       0.5079
+air us915_dr0  scheme_raw   0.9985
+air us915_dr0  scheme_unishox2 0.9408
+air us915_dr0  scheme_raw_ngram 1.2726
+air us915_dr0  scheme_raw_retry 0.8601
+air us915_dr0  raw          1.5895
+air us915_dr0  smaz2        1.1563
+air us915_dr0  unishox2     1.1612
+air us915_dr0  ppm_o1       0.8907
+air us915_dr0  ppm_o2_16k   1.2497
+air us915_dr0  ppm_o2_32k   0.7669
+air us915_dr0  ppm_o2_64k   0.7523
+air us915_dr0  ppm_o2       0.7514
+air us915_dr0  ppm_o3       0.6750
+air eu868_dr0  scheme_raw   2.2930
+air eu868_dr0  scheme_unishox2 2.2140
+air eu868_dr0  scheme_raw_ngram 2.8453
+air eu868_dr0  scheme_raw_retry 2.0155
+air eu868_dr0  raw          2.6997
+air eu868_dr0  smaz2        2.1320
+air eu868_dr0  unishox2     2.1343
+air eu868_dr0  ppm_o1       1.8873
+air eu868_dr0  ppm_o2_16k   2.2399
+air eu868_dr0  ppm_o2_32k   1.7603
+air eu868_dr0  ppm_o2_64k   1.7487
+air eu868_dr0  ppm_o2       1.7483
+air eu868_dr0  ppm_o3       1.6418
+air aprs       scheme_raw   0.9922
+air aprs       scheme_unishox2 0.9873
+air aprs       scheme_raw_ngram 1.2032
+air aprs       scheme_raw_retry 0.8805
+air aprs       raw          0.9077
+air aprs       smaz2        0.8681
+air aprs       unishox2     0.8693
+air aprs       ppm_o1       0.8070
+air aprs       ppm_o2_16k   0.8936
+air aprs       ppm_o2_32k   0.7754
+air aprs       ppm_o2_64k   0.7722
+air aprs       ppm_o2       0.7721
+air aprs       ppm_o3       0.7454
+air rockblock  scheme_raw   1.3100
+air rockblock  scheme_unishox2 1.2860
+air rockblock  scheme_raw_ngram 1.6210
+air rockblock  scheme_raw_retry 1.1540
+air rockblock  raw          1.1550
+air rockblock  smaz2        1.0000
+air rockblock  unishox2     1.0000
+air rockblock  ppm_o1       1.0000
+air rockblock  ppm_o2_16k   1.0100
+air rockblock  ppm_o2_32k   1.0000
+air rockblock  ppm_o2_64k   1.0000
+air rockblock  ppm_o2       1.0000
+air rockblock  ppm_o3       1.0000

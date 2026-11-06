@@ -1,0 +1,10 @@
+.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+.DS_Store
+*.dylib
+# raw Taskmaster-1 file (63 MB), downloaded by scripts/analysis/taskmaster_prereg.py --download
+data/taskmaster_self_dialogs.json
+# third-party C sources, fetched at pinned commits by scripts/sender_memory/vendor.py
+vendor/
