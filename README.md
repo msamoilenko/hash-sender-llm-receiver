@@ -3,6 +3,8 @@
 Files needed to check the article *How far does a hash-only sender go? A pre-registered map of
 sender memory versus bits for short text messages* (Marcelo Samoilenko, 2026).
 
+Preprint: [arXiv:2611.09848](https://arxiv.org/abs/2611.09848) (cs.IT, cross-list cs.CL).
+
 A sender that only computes hashes transmits short English messages; a receiver with a language
 model (Qwen2.5-0.5B) reconstructs them by hash-pruned beam search, checked by a 32-bit tag. One
 pre-registered run on 1,000 Taskmaster-1 user utterances compared it with in-domain PPM senders,
@@ -53,6 +55,20 @@ Re-running the decoder needs the raw Taskmaster-1 file
 (`.venv/bin/python scripts/analysis/taskmaster_prereg.py --download`, SHA-256 checked) and the
 receiver model at the revision pinned in the pre-registration; the decoder runs in fp16 on Apple
 MPS, and bit-identical results on other hardware are not claimed.
+
+## Citation
+
+```bibtex
+@misc{samoilenko2026hashonly,
+  title         = {How far does a hash-only sender go? A pre-registered map of sender memory
+                   versus bits for short text messages},
+  author        = {Samoilenko, Marcelo},
+  year          = {2026},
+  eprint        = {2611.09848},
+  archivePrefix = {arXiv},
+  primaryClass  = {cs.IT}
+}
+```
 
 ## License
 
